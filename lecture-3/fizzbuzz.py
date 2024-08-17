@@ -7,7 +7,7 @@ def fizz_buzz(limit):
         if i % 3 == 0:
             print('fizz', end=' ')
         if i % 5 == 0:
-    	    print('buzz', end=' ')
+                print('buzz', end=' ')
         if i % 3 and i % 5:
             print(i, end=' ')
         print("")
